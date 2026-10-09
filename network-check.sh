@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo "Checking Internet..."
+echo "Checking Internet connectivity..."
 ping -c 3 google.com
 
-echo "IP Address:"
-ifconfig
+echo
+echo "Network Interface and IP Address:"
+ip addr
